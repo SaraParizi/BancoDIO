@@ -1,35 +1,38 @@
-# 🚀 Projeto do Bootcamp DIO - Vivo
+# 💰 Sistema Bancário em Python  
+Projeto do Bootcamp DIO - Vivo
 
-Este é um projeto simples e funcional de um sistema bancário, desenvolvido como desafio prático do Bootcamp DIO em parceria com a Vivo. A aplicação, feita em Python, permite realizar operações bancárias essenciais de forma interativa no terminal.
+Este é um projeto simples e funcional de um sistema bancário, desenvolvido como desafio prático do **Bootcamp DIO em parceria com a Vivo**.  
+A aplicação, feita em Python, permite realizar operações bancárias essenciais de forma interativa no terminal.
+
+---
 
 ## ✨ Funcionalidades
-💵 Depósito: Adicione dinheiro à sua conta.
 
-💸 Saque: Retire valores respeitando os limites diários e por operação.
+- 💵 **Depósito:** Adicione dinheiro à sua conta.
+- 💸 **Saque:** Retire valores da conta, respeitando limites definidos.
+- 📄 **Extrato:** Veja o histórico de movimentações e o saldo atual.
+- 🔒 **Regras de Limite:**
+  - Saque máximo de **R$500,00** por operação.
+  - Até **3 saques por sessão**.
 
-📄 Extrato: Consulte o histórico de movimentações e o saldo disponível.
+---
 
-🔒 Regras de Limite:
+## 🛠️ Como Usar
 
-Saque máximo de R$500,00 por operação.
+1. Certifique-se de que o **Python 3.x** está instalado.
+2. Clone este repositório ou baixe o arquivo `banco.py`.
+3. Execute o script no terminal com o seguinte comando:
 
-Até 3 saques por sessão.
+   ```bash
+   python banco.py
 
-## 🛠️ Como usar
-Certifique-se de ter o Python 3.x instalado.
 
-Execute o arquivo banco.py no terminal:
-
-bash
-Copiar
-Editar
-python banco.py
-Siga o menu interativo para realizar as operações.
-
+---
 ## 📌 Requisitos
-Python 3.x instalado na sua máquina.
+Python 3.x
 
-Terminal ou IDE para execução do script.
+Terminal ou ambiente de desenvolvimento compatível (ex: VS Code, PyCharm)
 
+---
 ## 👩‍💻 Autora
-Desenvolvido por Sara Parizi como parte do desafio do Bootcamp DIO 💡
+Desenvolvido por Sara Parizi como parte do desafio do Bootcamp DIO - Vivo 💡
