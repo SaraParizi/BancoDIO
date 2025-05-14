@@ -1,0 +1,29 @@
+# Sistema Bancário - Bootcamp DIO Vivo
+
+Um projeto de sistema bancário em Python, desenvolvido como exercício prático para o Bootcamp DIO Vivo. 
+O sistema permite realizar operações básicas como depósito, saque e exibir extrato bancário.
+
+## Funcionalidades
+
+- **Depósito:** Permite adicionar saldo à conta.
+- **Saque:** Permite retirar saldo da conta, respeitando o limite de valor e quantidade de saques diários.
+- **Extrato:** Exibe todas as movimentações realizadas e o saldo atual.
+- **Limites:** 
+  - Saque limitado a R$500 por operação.
+  - Máximo de 3 saques por sessão.
+
+## Como usar
+
+1. Execute o arquivo `banco.py` em um terminal Python:
+   ```sh
+   python banco.py
+   ```
+2. Siga as instruções do menu para escolher a operação desejada.
+
+## Requisitos
+
+- Python 3.x
+
+## Autor
+
+Desenvolvido por Sara Parizi, para o desafio da DIO.
